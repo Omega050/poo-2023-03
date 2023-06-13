@@ -1,7 +1,8 @@
 package pooJavaMauro;
+import java.util.Date;
 public class Pessoa{
-    private data wasBorn;
-    public string name;
+    private Date wasBorn;
+    public String name;
     private Pessoa father;
     private Pessoa mother;
 }

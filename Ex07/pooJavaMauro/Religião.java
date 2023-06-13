@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Religião {
     private ArrayList devotos;
-    public novoFiel(Devoto d){
+    public void novoFiel(Devoto d){
         devotos.add(d);
     }
 }

@@ -7,5 +7,6 @@ public class SomaNaturais {
             s = s+c;
             c++;
         }
+        return s;
     }
 }

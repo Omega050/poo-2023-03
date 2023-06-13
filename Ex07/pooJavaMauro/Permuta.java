@@ -1,7 +1,7 @@
 package pooJavaMauro;
 public class Permuta {
     public static void permutação(String p, String S){
-        if(S.lenght() == 1){
+        if(S.length() == 1){
             System.out.println(p+S);
         }else{
             String Slinha;

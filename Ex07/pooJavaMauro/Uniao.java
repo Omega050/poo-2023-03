@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Uniao {
     public ArrayList filhos;
-    public Pessoa parceiros[2];
+    public Pessoa parceiros[];
 
     public void novoFilho(Pessoa p){
         filhos.add(p);
