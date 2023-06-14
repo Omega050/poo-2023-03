@@ -1,4 +1,4 @@
-package pooJavaMauro;    
+package t07.pooJavaMauro;  
 public class SomaNaturais {
     public static long somarNaturais(int n){
         int c = 1;

@@ -1,4 +1,4 @@
-package pooJavaMauro;
+package t07.pooJavaMauro;
 public class Permuta {
     public static void permutação(String p, String S){
         if(S.length() == 1){

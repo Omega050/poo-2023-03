@@ -1,4 +1,4 @@
-package pooJavaMauro;
+package t07.pooJavaMauro;
 public class Prova implements Ident {
     private byte nQuest;
     public byte get_nQuest(){
@@ -7,5 +7,10 @@ public class Prova implements Ident {
     public void set_nQuest(byte n){
         if(n>0)
         nQuest = n;
+    }
+    @Override
+    public String getName() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getName'");
     }
 }

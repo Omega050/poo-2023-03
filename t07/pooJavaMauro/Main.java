@@ -1,4 +1,4 @@
-package pooJavaMauro;
+package t07.pooJavaMauro;
 public class Main {
     public static void main(String[] args) {
         Prova pf = new Prova(); 

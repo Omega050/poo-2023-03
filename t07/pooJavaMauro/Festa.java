@@ -1,4 +1,4 @@
-package pooJavaMauro;
+package t07.pooJavaMauro;
 import java.util.TreeSet;
 public class Festa {
     private TreeSet convidados = new TreeSet();
