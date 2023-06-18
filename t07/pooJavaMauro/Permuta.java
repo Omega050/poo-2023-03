@@ -6,11 +6,11 @@ public class Permuta {
         }else{
             String Slinha;
             String Plinha;
-            for(int i = 0;i<S.length();i++)
+            for(int i = 0;i<S.length();i++){
             Slinha = S.substring(0, i) + S.substring(+1);
             Plinha = p+ S.charAt(i);
             permutação(Plinha,Slinha);
-
+}
         }
     }
 }
