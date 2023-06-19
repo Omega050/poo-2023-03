@@ -4,10 +4,12 @@ public class Cadeira {
     String cor;
     float tam;
     String material;
-    public Cadeira(String c, int t, String m){
+    String tipo;
+    public Cadeira(String c, int t, String m, String tipo){
         this.cor = c;
         this.tam = t;
         this.material = m;
+        this.tipo = tipo;
     }
     public String getColor(){
         return cor;
@@ -17,5 +19,8 @@ public class Cadeira {
     }
     public String getMat(){
         return material;
+    }
+    public String getType(){
+        return tipo;
     }
 }
