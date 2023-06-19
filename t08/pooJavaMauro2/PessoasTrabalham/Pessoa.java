@@ -14,6 +14,9 @@ public class Pessoa {
     public double getId(){
         return id;
     }
+    public double getSal(){
+        return salario;
+    }
     public void setSal(double sal){
         this.salario = sal;
     }

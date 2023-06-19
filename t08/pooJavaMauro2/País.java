@@ -18,4 +18,7 @@ public class País {
     public void setCapital(String nCidade){
         Capital = nCidade;
     }
+    public String getCapital(){
+        return Capital;
+    }
 }
