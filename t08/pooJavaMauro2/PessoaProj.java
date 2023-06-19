@@ -1,24 +1,19 @@
 package t08.pooJavaMauro2;
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
+
 public class PessoaProj {
-    public String nome;
-    private List<PessoaProj> integrantes;
+    public String user_name;
+    private List<ProjPessoa> project_list; 
 
-    public ProjPessoa(String nome){
-        this.nome = nome;
-        this.integrantes = new ArrayList<>();
+    public PessoaProj(String name){
+        this.user_name = name;
+        this.project_list = new ArrayList<>();
     }
-    public void adicionarPessoa(PessoaProj pessoa) {
-        integrantes.add(pessoa);
+    public String getUserName(){
+        return user_name;
     }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public List<PessoaProj> getPessoas() {
-        return integrantes;
+    public List<ProjPessoa> getProjectList(){
+        return project_list;
     }
 }
-
