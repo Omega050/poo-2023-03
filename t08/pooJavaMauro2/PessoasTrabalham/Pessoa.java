@@ -1,8 +1,8 @@
 package t08.pooJavaMauro2.PessoasTrabalham;
 
 public class Pessoa {
-    String nome;
-    double id;
+    private String nome;
+    public double id;
     private double salario;
     public Pessoa(String nome, int id){
         this.nome = nome;

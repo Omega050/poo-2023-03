@@ -1,10 +1,10 @@
 package t11.Cadeira;
 
 public class Cadeira {
-    String cor;
-    float tam;
-    String material;
-    String tipo;
+    public String cor;
+    public float tam;
+    private String material;
+    public String tipo;
     public Cadeira(String c, int t, String m, String tipo){
         this.cor = c;
         this.tam = t;
