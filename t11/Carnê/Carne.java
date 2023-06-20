@@ -36,5 +36,11 @@ public class Carne {
         prestacoes.sort((p1, p2) -> p2.getData().compareTo(p1.getData()));
         return prestacoes.get(0).getData();
     }
+    public Compra getCompra() {
+        return compra;
+    }
+    public List<Prestacao> getPrestacoes() {
+        return prestacoes;
+    }
     
 }

@@ -3,7 +3,7 @@ package t07.pooJavaMauro;
 import java.util.ArrayList;
 
 public class Uniao {
-    public ArrayList filhos;
+    public ArrayList<Pessoa> filhos;
     public Pessoa parceiros[];
 
     public void novoFilho(Pessoa p){

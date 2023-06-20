@@ -1,4 +1,15 @@
 package t07.pooJavaMauro;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Curso {
-    private Aluno[] alunos;
+    private List<Aluno> alunos;
+    public Curso(Aluno a){
+        this.alunos = new ArrayList<>();
+        alunos.add(a);
+    }
+    public List<Aluno> getAlunos() {
+        return alunos;
+    }
 }

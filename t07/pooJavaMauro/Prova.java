@@ -1,10 +1,13 @@
 package t07.pooJavaMauro;
 public class Prova implements Ident {
-    private byte nQuest;
-    public byte get_nQuest(){
+    private int nQuest;
+    public Prova(int n){
+        this.nQuest = n;
+    }
+    public int get_nQuest(){
         return nQuest;
     }
-    public void set_nQuest(byte n){
+    public void set_nQuest(int n){
         if(n>0)
         nQuest = n;
     }

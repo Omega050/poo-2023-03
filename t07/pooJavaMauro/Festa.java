@@ -1,7 +1,10 @@
 package t07.pooJavaMauro;
 import java.util.TreeSet;
 public class Festa {
-    private TreeSet convidados = new TreeSet();
+    private TreeSet<Convidado> convidados;
+    public Festa(){
+        this.convidados = new TreeSet<Convidado>();
+    }
     public void novoConvidado(Convidado c){
         convidados.add(c);
     }
