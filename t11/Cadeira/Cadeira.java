@@ -1,4 +1,4 @@
-package t09.Cadeira;
+package t11.Cadeira;
 
 public class Cadeira {
     String cor;

@@ -1,4 +1,4 @@
-package t09.Casa;
+package t11.Casa;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +21,7 @@ public class Casa {
     public void adicionarQuarto(Quarto quarto) {
         quartos.add(quarto);
     }
-
+    
     public void adicionarBanheiro(Banheiro banheiro) {
         banheiros.add(banheiro);
     }
@@ -37,10 +37,6 @@ public class Casa {
     public void adicionarGaragem(Garagem garagem) {
         garagens.add(garagem);
     }
-
-    // Getters e setters omitidos
-
-    // Exemplo de uso:
     public static void main(String[] args) {
         Casa casa = new Casa();
 

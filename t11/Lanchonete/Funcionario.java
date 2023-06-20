@@ -1,4 +1,4 @@
-package t09.Lanchonete;
+package t11.Lanchonete;
 
 public class Funcionario {
     private String name;
