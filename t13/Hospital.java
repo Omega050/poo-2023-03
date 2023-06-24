@@ -37,4 +37,7 @@ public class Hospital{
     public List<Ambulancia> getAmbulancias() {
         return ambulancias;
     }
+    public void agendarConsulta(Paciente p, Medico m){
+        
+    }
 }
