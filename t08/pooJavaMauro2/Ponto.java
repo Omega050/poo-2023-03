@@ -9,8 +9,6 @@ public class Ponto {
         this.y = y;
     }
 
-    // getters e setters
-
     public double getX() {
         return x;
     }

@@ -4,30 +4,30 @@ import java.util.ArrayList;
 public class Usuario {
     public String name;
     private String email;
-    private List<String> diretoriosPossuidos;
-    private List<String> possuiAcesso;
+    private List<String> donoDe;
+    private List<String> podeAcessar;
     
     public Usuario(String n, String e){
         this.name = n;
         this.email = e;
-        this.diretoriosPossuidos = new ArrayList<>(null);
-        this.possuiAcesso = new ArrayList<>();
+        this.donoDe = new ArrayList<>(null);
+        this.podeAcessar = new ArrayList<>();
     }
-    public String get_u_name(){
+    public String getName(){
         return name;
     }
-    public String get_u_email(){
+    public String getEmail(){
         return email;
     }
         public void acesso(String diretorio) {
-        this.possuiAcesso.add(diretorio);
+        this.podeAcessar.add(diretorio);
     }
 
-    public List<String> getDiretoriosPossuidos() {
-        return diretoriosPossuidos;
+    public List<String> getDonoDe() {
+        return donoDe;
     }
 
-    public List<String> getPossuiAcesso() {
-        return possuiAcesso;
+    public List<String> getpodeAcessar() {
+        return podeAcessar;
     }
 }

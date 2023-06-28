@@ -6,4 +6,10 @@ public class Disciplina {
     public Disciplina(String n){
         this.nome = n;
     }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public String getNome() {
+        return nome;
+    }
 }

@@ -1,9 +1,10 @@
+
 package t08.pooJavaMauro2.Diretório;
 import java.util.List;
 public class Diretorio {
-    String nomeDiretorio;
-    Usuario dono;
-    List<Usuario> uPermitidos;
+    public String nomeDiretorio;
+    private Usuario dono;
+    private List<Usuario> uPermitidos;
 
     public Diretorio(String nome, Usuario dono){
         this.nomeDiretorio = nome;
@@ -12,5 +13,14 @@ public class Diretorio {
     public void addUsuario(Usuario u){
         uPermitidos.add(u);
         u.acesso(this.nomeDiretorio);
+    }
+    public Usuario getDono() {
+        return dono;
+    }
+    public String getNomeDiretorio() {
+        return nomeDiretorio;
+    }
+    public List<Usuario> getuPermitidos() {
+        return uPermitidos;
     }
 }
