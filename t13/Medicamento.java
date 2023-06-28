@@ -2,38 +2,57 @@ package t13;
 
 import java.util.ArrayList;
 import java.util.List;
-public class Medicamento{
-    public String nome;
-    public String principioAtivo;
-    public String descricao;
-    private int quantidade;
-    public List<Medicamento> similares;
 
-    public Medicamento(String n, String p, String d, int qtde)
-    {
-        this.nome = n;
-        this.principioAtivo = p;
-        this.descricao = d;
-        this.quantidade = qtde;
-        this.similares = new ArrayList<Medicamento>();
+public class Medicamento {
+    private String nome;
+    private String principioAtivo;
+    private String descricao;
+    private int quantidade;
+    private List<Medicamento> similares;
+
+    public Medicamento(String nome, String principioAtivo, String descricao, int quantidade) {
+        this.nome = nome;
+        this.principioAtivo = principioAtivo;
+        this.descricao = descricao;
+        this.quantidade = quantidade;
+        this.similares = new ArrayList<>();
     }
+
     public String getNome() {
         return nome;
     }
-    public String getDescricao() {
-        return descricao;
-    }
+
     public String getPrincipioAtivo() {
         return principioAtivo;
     }
-    public void addEstoque(int qtde){
-        this.quantidade += qtde;
+
+    public String getDescricao() {
+        return descricao;
     }
+
     public int getQuantidade() {
         return quantidade;
     }
-    public void addSimilares(Medicamento m){
-        similares.add(m);
+
+    public void addEstoque(int quantidade) {
+        this.quantidade += quantidade;
     }
 
+    public List<Medicamento> getSimilares() {
+        return similares;
+    }
+
+    public void addSimilares(Medicamento medicamento) {
+        similares.add(medicamento);
+    }
+
+    @Override
+    public String toString() {
+        return "Medicamento{" +
+                "nome='" + nome + '\'' +
+                ", principioAtivo='" + principioAtivo + '\'' +
+                ", descricao='" + descricao + '\'' +
+                ", quantidade=" + quantidade +
+                '}';
+    }
 }

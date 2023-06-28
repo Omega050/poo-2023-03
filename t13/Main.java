@@ -2,7 +2,7 @@ package t13;
 
 import java.util.Date;
 
-public class Main {
+public class Main {//gerado com auxilio do Chat GPT apenas para fins de teste das classes criadas
     public static void main(String[] args) {
         Hospital hospital = new Hospital("Hospital Geral", "Rua Principal, 123");
         Medico medico = new Medico("Dr. João Silva", 12345, "Cardiologia", 5000.0, 1);
@@ -37,7 +37,7 @@ public class Main {
         System.out.println("Princípio Ativo: " + medicamento.getPrincipioAtivo());
         System.out.println("Descrição: " + medicamento.getDescricao());
         System.out.println("Quantidade em Estoque: " + medicamento.getQuantidade());
-        System.out.println("Medicamentos Similares: " + medicamento.similares);
+        System.out.println("Medicamentos Similares: " + medicamento.getSimilares());
 
         Receita receita = new Receita(medicamento, medico, dataConsulta, "Conforme necessário");
 
