@@ -12,6 +12,9 @@ public class Consulta {
         this.paciente = p;
         this.dataConsulta = d;
     }
+
+
+    }
     public Medico getMedico() {
         return medico;
     }
