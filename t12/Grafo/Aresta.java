@@ -1,8 +1,8 @@
 package t12.Grafo;
 
 public class Aresta {
-    Nó origem;
-    Nó destino;
+    public Nó origem;
+    public Nó destino;
 
     public Aresta(){
         

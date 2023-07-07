@@ -13,8 +13,6 @@ public class Consulta {
         this.dataConsulta = d;
     }
 
-
-    }
     public Medico getMedico() {
         return medico;
     }

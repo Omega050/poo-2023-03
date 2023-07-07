@@ -1,16 +1,16 @@
 package t12.Grafo;
 
 
-public class Nó<T> {
-        T val;
+public class Nó{
+        int val;
         Aresta a;  
-        public Nó(T val){
+        public Nó(int val){
             this.val = val;
         }
-        public void setVal(T val) {
+        public void setVal(int val) {
             this.val = val;
         }
-        public T getVal() {
+        public int getVal() {
             return val;
         }
 }
