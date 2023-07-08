@@ -1,16 +1,16 @@
-package t17.Funcionario;
+package t17.Empregado;
 
-public class Funcionario {
+public class Empregado {
     private String nome;
     private double salario;
-    private Funcionario gerente;
+    private Empregado gerente;
 
-    public Funcionario(String n, double s, Funcionario g){
+    public Empregado(String n, double s, Empregado g){
         this.nome = n;
         this. salario = s;
         this.gerente = g;
     }
-    public Funcionario getGerente() {
+    public Empregado getGerente() {
         return gerente;
     }
     public String getNome() {
@@ -22,7 +22,7 @@ public class Funcionario {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public void setGerente(Funcionario gerente) {
+    public void setGerente(Empregado gerente) {
         this.gerente = gerente;
     }
     public void setSalario(double salario) {
