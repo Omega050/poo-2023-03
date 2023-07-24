@@ -3,7 +3,7 @@ package t17.Comite;
 import java.util.ArrayList;
 import java.util.List;
 
-import t07.pooJavaMauro.Pessoa;
+import com.github.omega050.src.t08.PessoasTrabalham.Pessoa;
 
 public class Comite {
     public List<Pessoa> membros;
